@@ -10,4 +10,4 @@ def read_root():
 def predict_score(hours_studied:int):
     #yahan ML ka logic aayegam abhi simple math hai
     score = hours_studied * 10
-    return {"Predicted Score": score}
+    return {"Predicted_score": score}
